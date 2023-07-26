@@ -91,11 +91,12 @@ img {
     width: 650px;
 }
 
-.section-right span {
-    color: var(--whiteColor);
-    padding: 0 1rem;
-    font-size: 25px;
-    font-weight: 700;
+.section-right .count-down {
+    color: var(--SecondaryColor);
+    font-size: 4.5rem;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 1rem;
 }
 
 .section-right .btn {
