@@ -1,13 +1,12 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.3; 
-//Version of Solidity that the contract is written in
-
-import "@openzeppelin/contracts/token/ERC721/ERC721.sol"; 
+ 
 //The ERC721.sol file contains the implementation of the ERC721 standard, which is used for non-fungible tokens (NFTs). 
-import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol"; 
+import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
 //It adds functionality for storing and retrieving token metadata URIs.
-import "@openzeppelin/contracts/utils/Counters.sol"; 
+import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol"; 
 //provides a library for managing counters.
+import "@openzeppelin/contracts/utils/Counters.sol"; 
 
 contract NFTMinter is ERC721URIStorage { 
     //This line defines a new contract called NFTMinter
@@ -32,4 +31,4 @@ contract NFTMinter is ERC721URIStorage {
     }
 }
 
-// NFTMinter deployed to: 0xbF541857f9A29ffCCedE15a95c36B4c073215C16
+// NFTMinter deployed to: 0xd2d510D6E2cdaF9D17E6aC20fBB5E6EC65124490
