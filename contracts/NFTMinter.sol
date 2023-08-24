@@ -14,7 +14,7 @@ contract NFTMinter is ERC721URIStorage {
     //Counters library to create a counter variable called _tokenIds
     Counters.Counter private _tokenIds;
 
-    constructor() ERC721("Shardeum Dev NFTMinter", "SNFT") {} 
+    constructor() ERC721("Polygon Mumbai NFTMinter", "MNFT") {} 
     //constructor function of the NFTMinter contract. It is executed only once when the contract is deployed. 
 
     function mintNFT(address recipient, string memory tokenURI) public returns (uint256) {
@@ -31,4 +31,4 @@ contract NFTMinter is ERC721URIStorage {
     }
 }
 
-// NFTMinter deployed to: 0xd2d510D6E2cdaF9D17E6aC20fBB5E6EC65124490
+// NFTMinter deployed to: 0xe49A000a36Ddc0e5a0AbD398c7a7f679378dB5D3
